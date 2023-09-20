@@ -30,9 +30,4 @@ public class calculator {
 		int result=i%j;
 		return result;
 	}
-	public static int sagar() {
-		return 0;
-		
-		
-	}
 }
