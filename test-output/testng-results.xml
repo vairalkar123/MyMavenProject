@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-15T14:01:57 IST" name="regression" finished-at="2023-09-15T14:02:03 IST" duration-ms="6288">
+    <groups>
+    </groups>
+    <test started-at="2023-09-15T14:01:57 IST" name="regression1" finished-at="2023-09-15T14:02:03 IST" duration-ms="6288">
+      <class name="seleniumtests.SimpleTest">
+        <test-method signature="verifytitle()[pri:0, instance:seleniumtests.SimpleTest@58d75e99]" started-at="2023-09-15T14:01:57 IST" name="verifytitle" finished-at="2023-09-15T14:02:03 IST" duration-ms="6243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+      </class> <!-- seleniumtests.SimpleTest -->
+    </test> <!-- regression1 -->
+  </suite> <!-- regression -->
+</testng-results>
