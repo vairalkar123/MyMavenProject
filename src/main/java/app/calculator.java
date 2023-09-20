@@ -25,4 +25,9 @@ public class calculator {
 		int result=i/j;
 		return result;
 	}
+	public static int mod(int i,int j)
+	{
+		int result=i%j;
+		return result;
+	}
 }

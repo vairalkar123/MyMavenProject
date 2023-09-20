@@ -47,4 +47,13 @@ public class calculatortest {
 		assertEquals(expres, actres);
 		
 	}
+	@Test
+	public void testmod() {
+		int a=6;
+		int b=2;
+		int expres=0;
+		int actres=calculator.mod(a,b);
+		assertEquals(expres, actres);
+		
+	}
 }
