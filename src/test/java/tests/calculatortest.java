@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import app.calculator;
+import app.maths;
 
 public class calculatortest {
 
@@ -53,6 +54,15 @@ public class calculatortest {
 		int b=2;
 		int expres=0;
 		int actres=calculator.mod(a,b);
+		assertEquals(expres, actres);
+		
+	}
+	@Test
+	public void testdivide() {
+		int a=6;
+		int b=2;
+		int expres=3;
+		int actres=maths.divide(a,b);
 		assertEquals(expres, actres);
 		
 	}
